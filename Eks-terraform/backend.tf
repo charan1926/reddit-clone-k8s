@@ -3,7 +3,7 @@ terraform {
     endpoints = {
       s3 = "http://192.168.56.10:9101" # Your MinIO endpoint
     }
-    bucket                      = "my-minio-bucket"
+    bucket                      = "reddit"
     key                         = "terraform/state"
     region                      = "us-east-1" 
     access_key                  = "your-minio-access-key"
