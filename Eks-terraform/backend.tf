@@ -6,8 +6,8 @@ terraform {
     bucket                      = "reddit"
     key                         = "terraform/state"
     region                      = "us-east-1" 
-    access_key                  = "your-minio-access-key"
-    secret_key                  = "your-minio-secret-key"
+    access_key                  = "admin"
+    secret_key                  = "admin123"
     skip_credentials_validation = true
     skip_metadata_api_check     = true
     force_path_style            = true
